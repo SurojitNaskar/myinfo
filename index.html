@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="logo1.png">
+<title>Surojit Naskar — Networking &amp; Cybersecurity Portfolio</title>
+<meta name="description" content="Portfolio of Surojit Naskar, B.Sc (Hons) Advanced Networking & Cybersecurity student at Brainware University.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0A0F1C">
+
+<meta property="og:title" content="Surojit Naskar — Networking &amp; Cybersecurity Portfolio">
+<meta property="og:description" content="B.Sc (Hons) Advanced Networking & Cybersecurity student at Brainware University, focused on network defense, ethical hacking, and full-stack development.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true">
+  <span id="scrollProgressFill"></span>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo" aria-label="Back to top">
+      <span class="prompt">surojit@naskar</span><span class="prompt-muted">:~$</span>
+      <span class="cursor" aria-hidden="true"></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span class="nav-label">about</span><span class="nav-port">:22</span></a>
+      <a href="#resume"><span class="nav-label">resume</span><span class="nav-port">:80</span></a>
+      <a href="#education"><span class="nav-label">education</span><span class="nav-port">:53</span></a>
+      <a href="#skills"><span class="nav-label">skills</span><span class="nav-port">:443</span></a>
+      <a href="#projects"><span class="nav-label">projects</span><span class="nav-port">:8080</span></a>
+      <a href="#contact"><span class="nav-label">contact</span><span class="nav-port">:25</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+
+      <div class="boot" id="boot" aria-hidden="true">
+        <p><span class="boot-prompt">$</span> whoami</p>
+        <p class="boot-out">surojit_naskar — B.Sc (Hons) ANCS, Brainware University</p>
+        <p><span class="boot-prompt">$</span> status --check</p>
+        <p class="boot-out">connection secure <span class="dot-sep">·</span> access granted<span class="cursor" aria-hidden="true"></span></p>
+      </div>
+
+      <div class="hero-content" id="heroContent">
+        <div class="hero-top">
+          <div class="profile-frame">
+            <!-- Replace image.jpg with your photo. Keep the filename or update the src below. -->
+            <img src="image.jpg" alt="Surojit Naskar" class="profile-img" id="profileImg" onerror="this.classList.add('img-failed')">
+            <span class="profile-fallback" aria-hidden="true">SN</span>
+            <span class="status-badge"><span class="status-dot"></span>online</span>
+          </div>
+
+          <div class="hero-text">
+            <p class="eyebrow"><span class="status-dot small"></span>status: open to opportunities</p>
+            <h1>Surojit Naskar</h1>
+            <p class="role"><span id="roleText">B.Sc (Hons) Advanced Networking &amp; Cybersecurity</span><span class="cursor" aria-hidden="true"></span></p>
+            <p class="pitch">Second-year student building toward a career in network defense and ethical hacking — one lab, one project, one line of code at a time. Based at Brainware University.</p>
+
+            <div class="hero-cta">
+              <a href="https://github.com/SurojitNaskar" target="_blank" rel="noopener" class="btn btn-primary">
+                View GitHub<span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+              <a href="https://www.linkedin.com/in/surojit-naskar-93128a398" target="_blank" rel="noopener" class="btn btn-ghost">
+                Connect on LinkedIn<span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-chips">
+          <span class="chip">Brainware University</span>
+          <span class="chip">Advanced Networking &amp; Cybersecurity</span>
+          <span class="chip">Ethical Hacking · IT Infrastructure</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-tag reveal">[about] :22/tcp — identity</p>
+      <h2 class="section-title reveal">A bit about me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a second-year B.Sc (Hons) Advanced Networking &amp; Cybersecurity student at Brainware University. My interests sit around IT infrastructure, network defense, and ethical hacking, and I want to put what I'm learning to use on real security problems.</p>
+          <p>Day to day, I work with Python, C, C++, Java, and MySQL, and I'm comfortable in Linux. Alongside my degree, I'm picking up full-stack web development and exploring artificial intelligence and machine learning.</p>
+          <p>I like building things, breaking things to understand them better, and improving my skills through hands-on practice rather than theory alone.</p>
+        </div>
+
+        <div class="focus-card reveal">
+          <p class="focus-title">Current focus areas</p>
+          <ul class="focus-list">
+            <li>Full Stack Web Development</li>
+            <li>Cybersecurity &amp; Networking</li>
+            <li>Python Programming</li>
+            <li>MySQL &amp; Databases</li>
+            <li>Linux Systems</li>
+            <li>Artificial Intelligence &amp; Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section class="section" id="resume">
+    <div class="section-inner">
+      <p class="section-tag reveal">[resume] :80/http — fetch document</p>
+      <h2 class="section-title reveal">Resume</h2>
+
+      <div class="terminal-card resume-log reveal" id="resumeCard">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+          <span class="terminal-bar-title">resume.pdf</span>
+        </div>
+        <div class="terminal-body">
+          <p class="log-line"><span class="boot-prompt">$</span> wget resume.pdf</p>
+          <p class="log-line muted">one-page PDF · updated successfully</p>
+          <!-- Replace resume.pdf in this folder with your actual file. The button below already points to it. -->
+          <a href="resume.pdf" download class="btn btn-primary resume-btn">
+            Download Resume<span class="btn-arrow-down" aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+    
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section-alt" id="education">
+    <div class="section-inner">
+      <p class="section-tag reveal">[education] :53/udp — record lookup</p>
+      <h2 class="section-title reveal">Education log</h2>
+
+      <div class="terminal-card edu-log reveal" id="eduLog">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+          <span class="terminal-bar-title">education.log</span>
+        </div>
+        <div class="terminal-body">
+          <p class="log-line"><span class="log-key">[degree]</span> B.Sc (Hons) Advanced Networking &amp; Cybersecurity — Brainware University <span class="log-status in-progress">in progress · sem 3</span></p>
+          <p class="log-line"><span class="log-key">[hs]</span>&nbsp;Higher Secondary (Class XII) <span class="log-bar"><span class="log-bar-fill" id="hsBarFill" data-pct="70.2"></span></span> <span class="log-pct" id="hsPctText">70.2%</span></p>
+          <p class="log-line"><span class="log-key">[ssc]</span> Secondary (Class X) <span class="log-bar"><span class="log-bar-fill" id="sscBarFill" data-pct="72.14"></span></span> <span class="log-pct" id="sscPctText">72.14%</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="section-tag reveal">[skills] :443/tcp — secure stack</p>
+      <h2 class="section-title reveal">What I work with</h2>
+      <p class="skills-help">Click or tab to a node to see what it's for.</p>
+
+      <div class="skills-layout">
+        <div class="graph-wrap reveal">
+          <svg id="skillGraph" class="skill-graph" viewBox="0 0 640 640" role="img" aria-label="Diagram connecting Surojit Naskar to his core skills"></svg>
+          <p class="skill-info" id="skillInfo">Select a node above to learn more.</p>
+        </div>
+
+        <div class="skill-legend reveal">
+          <div class="legend-group">
+            <p class="legend-title">Languages</p>
+            <div class="legend-chips">
+              <span class="chip chip-sm">Python</span>
+              <span class="chip chip-sm">C</span>
+              <span class="chip chip-sm">C++</span>
+              <span class="chip chip-sm">Java</span>
+            </div>
+          </div>
+          <div class="legend-group">
+            <p class="legend-title">Tools &amp; systems</p>
+            <div class="legend-chips">
+              <span class="chip chip-sm">MySQL</span>
+              <span class="chip chip-sm">Linux</span>
+              <span class="chip chip-sm">Advanced Excel</span>
+              <span class="chip chip-sm">MS Word</span>
+              <span class="chip chip-sm">MS Access</span>
+            </div>
+          </div>
+          <div class="legend-group">
+            <p class="legend-title">Focus areas</p>
+            <div class="legend-chips">
+              <span class="chip chip-sm">Cybersecurity &amp; Networking</span>
+              <span class="chip chip-sm">Full-Stack Web Dev</span>
+              <span class="chip chip-sm">AI &amp; Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <p class="section-tag reveal">[projects] :8080/tcp — deployments</p>
+      <h2 class="section-title reveal">Projects</h2>
+
+      <!--
+        ADD PROJECTS HERE LATER:
+        1. Delete (or hide) the .empty-state div below once you have a first project.
+        2. Copy this card template into a wrapping <div class="project-grid"> for each project:
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="project-status">deployed</span>
+            <h3>Project Name</h3>
+          </div>
+          <p>Short description of what the project does and what you used to build it.</p>
+          <div class="project-stack">
+            <span class="chip chip-sm">Python</span>
+            <span class="chip chip-sm">MySQL</span>
+          </div>
+          <a href="https://github.com/SurojitNaskar/your-repo" target="_blank" rel="noopener" class="project-link">View repo →</a>
+        </article>
+      -->
+
+      <div class="terminal-card empty-state reveal" id="projectsEmpty">
+        <div class="terminal-bar">
+          <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+          <span class="terminal-bar-title">projects/</span>
+        </div>
+        <div class="terminal-body">
+          <p class="log-line"><span class="boot-prompt">$</span> ls ~/projects</p>
+          <p class="log-line muted">total 0</p>
+          <p class="log-line muted">directory empty — no builds deployed yet<span class="cursor" aria-hidden="true"></span></p>
+        </div>
+      </div>
+      <p class="empty-note reveal">Projects will land here as they ship — check the <a href="https://github.com/SurojitNaskar" target="_blank" rel="noopener">GitHub profile</a> for work in progress.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <p class="section-tag reveal">[contact] :25/tcp — open connection</p>
+      <h2 class="section-title reveal">Let's connect</h2>
+      <p class="contact-intro reveal">Open to internships, collaborations, and networking with people in tech. Pick a channel below.</p>
+
+      <div class="connect-list reveal">
+        <div class="connect-row">
+          <span class="connect-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="13.5" r="7" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M7 8.2 L8.6 4.3 L10.2 8.2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" fill="none"/>
+              <path d="M17 8.2 L15.4 4.3 L13.8 8.2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" fill="none"/>
+              <circle cx="9.6" cy="13.5" r="1" fill="currentColor"/>
+              <circle cx="14.4" cy="13.5" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="connect-cmd">$ connect --github</span>
+          <a class="connect-target" href="https://github.com/SurojitNaskar" target="_blank" rel="noopener" aria-label="Open GitHub profile">open profile</a>
+          <button class="connect-copy" data-copy="https://github.com/SurojitNaskar" aria-label="Copy GitHub link">copy</button>
+        </div>
+        <div class="connect-row">
+          <span class="connect-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" stroke-width="1.6"/>
+              <text x="6.4" y="16.5" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="currentColor">in</text>
+            </svg>
+          </span>
+          <span class="connect-cmd">$ connect --linkedin</span>
+          <a class="connect-target" href="https://www.linkedin.com/in/surojit-naskar-93128a398" target="_blank" rel="noopener" aria-label="Open LinkedIn profile">open profile</a>
+          <button class="connect-copy" data-copy="https://www.linkedin.com/in/surojit-naskar-93128a398" aria-label="Copy LinkedIn link">copy</button>
+        </div>
+        <div class="connect-row">
+          <span class="connect-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="16.6" cy="7.4" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="connect-cmd">$ connect --instagram</span>
+          <a class="connect-target" href="https://www.instagram.com/surojit_naskar_" target="_blank" rel="noopener" aria-label="Open Instagram profile">open profile</a>
+          <button class="connect-copy" data-copy="https://www.instagram.com/surojit_naskar_" aria-label="Copy Instagram link">copy</button>
+        </div>
+        <div class="connect-row">
+          <span class="connect-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/>
+              <text x="9.3" y="16.8" font-family="Georgia, serif" font-size="13" font-weight="700" fill="currentColor">f</text>
+            </svg>
+          </span>
+          <span class="connect-cmd">$ connect --facebook</span>
+          <a class="connect-target" href="https://www.facebook.com/share/1Cmmj9iG55/" target="_blank" rel="noopener" aria-label="Open Facebook profile">open profile</a>
+          <button class="connect-copy" data-copy="https://www.facebook.com/share/1Cmmj9iG55/" aria-label="Copy Facebook link">copy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p><span class="status-dot small"></span>© <span id="year"></span> Surojit Naskar · built with HTML, CSS &amp; JS</p>
+  </div>
+</footer>
+
+<!-- ============ BACK TO TOP ============ -->
+<button class="back-top" id="backTop" aria-label="Back to top" tabindex="-1">
+  <span aria-hidden="true">↑</span>
+</button>
+
+<!-- ============ CURSOR FX ============ -->
+<div class="cursor-fx" id="cursorFx" aria-hidden="true">
+  <span class="cursor-dot" id="cursorDot"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
